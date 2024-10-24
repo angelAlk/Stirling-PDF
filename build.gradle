@@ -271,6 +271,9 @@ jar {
 
 tasks.named("test") {
     useJUnitPlatform()
+    testLogging {
+        events "passed"
+    }
 }
 
 task printVersion {

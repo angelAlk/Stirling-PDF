@@ -26,6 +26,7 @@ public class CheckProgramInstall {
                             .findFirst()
                             .orElse(null);
             pythonAvailableChecked = true;
+            System.out.printf("hola\n");
         }
         return availablePythonCommand;
     }
